@@ -1,0 +1,19 @@
+version: "3.1"
+
+rules:
+  - rule: respond to greeting
+    steps:
+      - intent: menyapa
+      - action: utter_halo
+
+  - rule: respond to payment questions
+    steps:
+      - intent: pembayaran
+      - action: utter_topik_pembayaran
+
+  - rule: respond to payment methods questions
+    steps:
+      - intent: jenis_pembayaran  # Menggunakan intent baru
+      - action: utter_jenis_pembayaran
+
+  # Tambahkan aturan untuk kategori lainnya jika diperlukan
