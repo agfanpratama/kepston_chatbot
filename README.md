@@ -1,5 +1,5 @@
 # I Made Novandy Asardi
-![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20made.png?raw=true)
+<img src="https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20made.png?raw=true" alt="Foto Made" width="300">
 
 # Rafli Riansyah
 ![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20rafli.png?raw=true)
