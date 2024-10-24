@@ -15,6 +15,7 @@
 ### Ini adalah projek capstone chatbot
 
 <div align="center">
-    <a href="valorant">
+    <a href="https://discord.gg/VCX7Qdqa" targer="_blank">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank" />
+    </a>
 
