@@ -10,8 +10,8 @@
 # Agfan Herru Pratama.H
 <img src="https://github.com/agfanpratama/kepston_chatbot/blob/main/anggota/foto%20agfan.png?raw=true" alt="Agfan" width="300">
 
+</br>
 
+<h3 align="center">Ini adalah projek capstone chatbot</h3>
 
-### Ini adalah projek capstone chatbot
-
-Discord Link Capstone | https://discord.gg/VCX7Qdqa
+Discord Link Capstone | **https://discord.gg/VCX7Qdqa**
