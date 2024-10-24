@@ -9,6 +9,6 @@
 
 
 
-## Ini adalah projek capstone chatbot
+### Ini adalah projek capstone chatbot
 
 Discord Link Capstone | https://discord.gg/VCX7Qdqa
