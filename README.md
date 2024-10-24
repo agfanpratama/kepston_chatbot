@@ -2,10 +2,10 @@
 ![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20made.png?raw=true)
 
 # Rafli Riansyah
-![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20rafli.pngraw=true)
+![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20rafli.png?raw=true)
 
 # Agfan Herru Pratama.H
-![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20agfan.pngraw=true)
+![alt text](https://github.com/agfanpratama/kepston_chatbot/blob/main/foto/foto%20agfan.png?raw=true)
 
 
 
