@@ -12,6 +12,6 @@
 
 </br>
 
-<h1 align="center">Ini adalah projek capstone chatbot</h1>
+### Ini adalah projek capstone chatbot
 
 Discord Link Capstone | **https://discord.gg/VCX7Qdqa**
