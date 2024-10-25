@@ -18,6 +18,6 @@
 
 <h3 align="left">Tempat ngobrol kita disini :</h3>
 <p align="left">
-<a href="https://discord.gg/875749002719662121" target="blank"><img align="center" src="https://github.com/agfanpratama/agfanpratama/blob/main/icons/discord-svgrepo-com.svg" alt="875749002719662121" height="100" width="50" /></a>
+<a href="https://discord.gg/875749002719662121" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="875749002719662121" height="30" width="40" /></a>
 </p>
 
