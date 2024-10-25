@@ -1,0 +1,47 @@
+version: "3.1"
+
+
+rules:
+  # - rule: Greet the user and ask for their name
+  #   steps:
+  #     - action: action_greet_user
+  #     - intent: perkenalan  # Intent yang digunakan untuk menyebutkan nama
+  #     - action: action_save_nama # Action untuk menyambut pengguna dengan nama mereka
+
+
+  - rule: respond to greeting
+    steps:
+      - intent: menyapa
+      - action: utter_halo
+
+  - rule: respond to payment questions
+    steps:
+      - intent: pembayaran
+      - action: utter_topik_pembayaran
+
+  - rule: respond to payment methods questions
+    steps:
+      - intent: jenis_pembayaran  # Menggunakan intent baru
+      - action: utter_jenis_pembayaran
+
+  # Tambahkan aturan untuk kategori lainnya jika diperlukan
+
+  # Aturan sapaan dengan nama pengguna
+
+  # Aturan untuk sentimen marah
+  - rule: Tanggapi pengguna yang marah
+    steps:
+      - intent: marah
+      - action: utter_marah
+
+  # Aturan untuk sentimen bahagia
+  - rule: Tanggapi pengguna yang bahagia
+    steps:
+      - intent: bahagia
+      - action: utter_bahagia
+
+  # Aturan untuk sentimen sedih
+  - rule: Tanggapi pengguna yang sedih
+    steps:
+      - intent: sedih
+      - action: utter_sedih

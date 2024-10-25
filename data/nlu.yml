@@ -1,0 +1,241 @@
+version: "3.1"
+
+nlu:
+
+- intent: menyapa
+  examples: |
+    - halo
+    - selamat siang
+    - selamat pagi
+    - selamat malam
+    - permisi
+    - hai
+    - hei
+    - oi
+    - selamat sore
+    - assalamualaikum 
+    - hai kak
+    - halo kak
+    - permisi kak
+    - halo min
+    - hai min
+    - halo admin
+    - hai admin
+
+- intent: mulai_percakapan
+  examples: |
+    - mulai
+    - start
+    - mulia
+    - mulai percakapan
+    - percakapn
+
+
+- intent: selamat_tinggal
+  examples: |
+   - sampai jumpa
+   - selamat tinggal
+   - sampai jumpa
+   - wassalamualaikum 
+
+
+- intent: konfirmasi_pertanyaan
+  examples: |
+    - betul
+    - benar
+    - ya
+    - oke
+    - ok
+    - baik
+    - ya betul
+    - sip
+    - sip banget
+    - benar banget
+    - benar sekali
+    - benar sekali deh
+    - benar sekali lah
+    - benar sekali yah
+    - tepat
+    - tepat banget
+    - tentu saja
+    - tentu
+    - setuju
+    - bnr
+ 
+
+
+- intent: membantah
+  examples: |
+    - tidak
+    - tidak juga
+    - tidak juga lah
+    - tidak juga yah
+    - tidak juga banget
+    - tidak juga sekali
+    - tidak juga sekali deh
+    - tidak juga sekali lah
+    - tidak juga sekali yah
+    - tidak juga sekali banget
+    - tidak juga sekali sekali
+    - bukan
+    - tdk
+    - bkn
+    - tidak setuju
+    - salah
+    - tidak yakin
+
+- regex: nama_pengguna
+  examples: |
+    - [A-Z][a-z]+ [A-Z][a-z]+  # Menangkap nama depan dan belakang
+
+- intent: perkenalan
+  examples: |
+    - Nama saya [David Brendi](nama_pengguna)
+    - Halo, saya [Budi](nama_pengguna)
+    - Saya [Siti](nama_pegguna)
+    - halo saya [rafli](nama_pengguna)
+    - hai, saya [Putri](nama_pengguna)
+    - panggil saja saya [Anton](nama_pengguna)
+    - nama saya adalah [Farah](nama_pengguna)
+    - boleh panggil saya [Irfan](nama_pengguna)
+    - perkenalkan saya [Samsul](nama_pengguna)
+    - saya bernama [Lestari](nama_pengguna)
+    - nama saya [Ridwan](nama_pengguna), senang bertemu
+    - hai, saya [Dewi](nama_pengguna)
+    - panggil aku [Yusuf](nama_pengguna)
+    - saya adalah [Rina](nama_pengngguna)
+    - Saya [arief wira](nama_pengguna)
+    - halo nama saya [agfan herru](nama_penguna)
+    - kenalin aku [Joko](nama_pengguna)
+    - salam, saya [Mira](nama_pengguna)
+    - saya dikenal sebagai [Eko](nama_pengguna)
+    - nama saya [Reza](nama_pengguna)
+    - boleh panggil saya [Andi](nama_pengguna)
+    - saya [Bayu](nama_pengguna), senang berkenalan
+    - aku adalah [Indah](nama_pengguna)
+    - halo nama saya [Rizky](nama_pengguna)
+    - perkenalkan, saya [Nurul](nama_pengguna)
+    - saya punya nama [Bagus](nama_pengguna)
+    - panggil aku saja [Ivan](nama_pengguna)
+    - nama lengkap saya [Dina Kusuma](nama_pengguna)
+    - nama lengkap saya [Dian Septiani](nama_pengguna)
+    - halo, saya adalah [Aulia](nama_pengguna)
+
+- intent: tanya_deskripsi
+  examples: |
+    - Apa deskripsi produk ini?
+    - Bisakah saya melihat deskripsi produk ini?
+    - Berikan detail produk ini
+    - Saya ingin tahu spesifikasi produk ini
+    - Tunjukkan deskripsi produk
+
+- intent: pembayaran
+  examples: |
+    - Pembayaran
+    - bayar
+    - pembayaran
+    - saya ingin menanyakan pembayaran
+    - bagaimana cara melakukan pembayaran
+    - bagaimana cara bayar
+    - cara bayar bagaimana
+    - gimana cara melakukan pembayaran
+    - gimana cara bayar
+
+
+- intent: akun
+  examples: |
+    - Akun dan Informasi Pelanggan
+    - akun
+    - informasi pelanggan
+
+
+- intent: pertanyaan_umum
+  examples: |
+    - Bagaimana cara melakukan pemesanan?
+    - Apakah saya perlu membuat akun untuk berbelanja?
+    - Bagaimana cara menambahkan produk ke keranjang?
+    - Bagaimana cara mengecek pesanan saya?
+    - Apakah pembayaran saya aman?
+
+- intent: Akun_dan_Informasi_Pelanggan
+  examples: |
+    - Bagaimana cara membuat akun?
+    - Bagaimana cara mengganti kata sandi akun saya?
+    - Apakah saya bisa melihat riwayat pesanan saya?
+    - Bagaimana cara mengubah alamat pengiriman?
+
+
+- intent: jenis_pembayaran
+  examples: |
+    - Metode pembayaran apa saja yang tersedia?
+    - Apakah bisa menggunakan kartu kredit?
+    - Apakah ada opsi bayar di tempat (COD)?
+    - Apakah bisa menggunakan e-wallet seperti DANA atau GoPay?
+    - Apakah menerima pembayaran dengan transfer bank?
+
+- intent: mencari_laptop
+  examples: |
+    - Apa saja laptop yang tersedia?
+    - Apa saja laptop yang tersedia di toko?
+    - Apa saja merk laptop yang tersedia?
+    - Merk laptop apa yang tersedia?
+    - Laptop apa saja yang ada di toko ini?
+    - Apakah toko ini memiliki banyak merk laptop?
+
+- intent: laptop_lenovo
+  examples: |
+    - Saya ingin memilih laptop lenovo
+    - Saya memilih lenovo
+    - Saya ingin tahu laptop lenovo
+    - lenovo
+
+- intent: pilih_produk
+  examples: |
+    - /pilih_produk{"produk_id":"1"}
+    - /pilih_produk{"produk_id":"2"}
+
+#ini saya ubah 
+- intent: choose_product
+  examples: |
+    - {"url": "https://example.com"}
+
+- intent: marah
+  examples: |
+    - Saya sangat kesal dengan pesanan saya yang terlambat!
+    - Pesanan saya belum datang, saya marah!
+    - Saya kecewa karena barang tidak tiba sesuai waktu.
+    - Layanan Anda sangat mengecewakan!
+    - Kenapa pesanan saya belum sampai?
+    - Saya sangat frustrasi dengan proses pengembalian!
+    - Anda membuat saya sangat marah dengan cara ini!
+    - Saya tidak bisa percaya betapa lambatnya pengiriman ini.
+    - Sangat tidak menyenangkan menerima pelayanan seperti ini.
+    - Saya sudah menunggu terlalu lama, saya marah!
+
+- intent: bahagia
+  examples: |
+    - Saya sangat senang dengan produk yang saya terima!
+    - Terima kasih atas diskon yang saya dapatkan!
+    - Saya suka layanan pelanggan Anda yang cepat!
+    - Pengalaman belanja saya sangat memuaskan!
+    - Produk datang lebih cepat dari yang saya harapkan!
+    - Senang sekali bisa berbelanja di sini!
+    - Saya sangat puas dengan kualitas produk!
+    - Terima kasih banyak, saya benar-benar bahagia!
+    - Semua berjalan sesuai harapan, saya senang!
+    - Saya ingin kembali lagi untuk berbelanja di sini!
+
+- intent: sedih
+  examples: |
+    - Saya merasa tidak puas dengan layanan.
+    - Saya tidak tahu harus berbuat apa setelah kejadian ini.
+    - Saya merasa kecewa dengan pengalaman belanja ini.
+    - Saya sangat sedih karena barang yang saya inginkan tidak tersedia.
+    - Saya tidak tahu bagaimana cara mengembalikan produk ini.
+    - Layanan ini sangat tidak memuaskan, saya merasa sedih.
+    - Saya merasa ditinggalkan dalam proses pengembalian barang.
+    - Kenapa pengalaman belanja saya tidak menyenangkan?
+    - Saya sangat kecewa dengan semua ini.
+    - Saya tidak tahu harus mengadu kepada siapa.
+
+

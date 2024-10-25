@@ -1,0 +1,58 @@
+version: "3.1"
+
+stories:
+  - story: pengguna memulai percakapan
+    steps:
+      - intent: mulai_percakapan
+      - action: utter_topik_pertanyaan
+
+  - story: pengguna menyapa
+    steps:
+      - intent: menyapa
+      - action: utter_halo
+
+  - story: pengguna menanyakan tentang akun
+    steps:
+      - intent: akun
+      - action: utter_topik_akun
+
+  - story: pengguna menanyakan pembayaran
+    steps:
+      - intent: pembayaran
+      - action: utter_topik_pembayaran
+
+  - story: pengguna menanyakan laptop lenovo
+    steps:
+      - intent: mencari_laptop
+      - action: utter_merk_laptop
+      - intent: laptop_lenovo
+      - action: action_laptop_lenovo
+      - intent: pilih_produk
+      - action: action_pilih_produk
+      - intent: tanya_deskripsi
+      - action: action_deskripsi_lenovo
+
+  - story: Simpan nama pengguna dan sapaan
+    steps:
+      - intent: perkenalan
+      - action: action_save_nama
+
+
+
+  # - story: Tanya produk dengan nama pengguna
+  #   steps:
+  #   - action: utter_sapa_pengguna
+  #   - intent: cari_produk
+  #   - action: utter_saran_produk
+
+  # - story: pengguna menanyakan metode pembayaran
+  #   steps:
+  #     - intent: jenis_pembayaran  # Menggunakan intent baru
+  #     - action: utter_jenis_pembayaran
+
+  # - story: pengguna menanyakan tentang akun dan informasi pelanggan
+  #   steps:
+  #     - intent: Akun_dan_Informasi_Pelanggan  # Menggunakan intent baru
+  #     - action: utter_akun
+
+  # Tambahkan cerita untuk kategori lainnya jika diperlukan
