@@ -16,10 +16,8 @@
 
 </br>
 
-### Ini adalah projek capstone chatbot
-
-<div align="center">
-    <a href="https://discord.gg/VCX7Qdqa" target="_blank">
-        <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank" />
-    </a>
+<h3 align="left">Tempat ngobrol kita disini :</h3>
+<p align="left">
+<a href="https://discord.gg/875749002719662121" target="blank"><img align="center" src="https://github.com/agfanpratama/agfanpratama/blob/main/icons/discord-svgrepo-com.svg" alt="875749002719662121" height="30" width="40" /></a>
+</p>
 
