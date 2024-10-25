@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img src ="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Selamat+Datang+di+Capstone+Chatbot!;+Yuk+kenalan+dengan+kami!;" />
+</h1>
+
 # I Made Novandy Asardi
 <img src="https://github.com/agfanpratama/kepston_chatbot/blob/main/anggota/foto%20made.png?raw=true" alt="Made" width="300">
 
