@@ -16,7 +16,7 @@
 
 </br>
 
-<h3 align="left">Tempat ngobrol kita disini :</h3>
+<h3 align="left">Tempat ngobrol kita disini ya guys :</h3>
 <p align="left">
 <a href="https://discord.gg/VCX7Qdqa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="875749002719662121" height="30" width="40" /></a>
 </p>
